@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: subhojeet992012/boardgitlab:1395633111 # Image that will be used to containers in the cluster
+          image: subhojeet992012/boardgitlab:1395647060 # Image that will be used to containers in the cluster
           imagePullPolicy: Always
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
